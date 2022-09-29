@@ -7,6 +7,9 @@ TF卡连接到PC，使用SDFormatter软件格式化TF卡。
 打开Win32DiskImager软件，选择第1步准备的系统镜像，点击write烧写系统镜像。
 4.
 烧录完成后，在我的电脑中会出现boot盘符，将JMO-DSI-LCD文件夹拷贝进去
+如果没有JMO-DSI-LCD，则打开树莓派终端，连接网线或wifi，运行如下命令下载：
+git clone https://github.com/lushengchu/JMO-DSI-LCD.git
+
 5.
 将TF卡接入到树莓派上，接上键盘和鼠标，并启动树莓派，登录树莓派的终端（可以将树莓派接到HDMI显示器或用ssh远程登录）。
 6.
