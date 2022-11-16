@@ -42,6 +42,7 @@ Data_Insertion config.txt  "ignore_lcd=1"
 Data_Insertion config.txt  "dtoverlay=vc4-kms-v3d"
 Data_Insertion config.txt  "dtoverlay=JMO_DSI1024x600_Screen,Backlight=255"
 #Data_Insertion config.txt  "# -------------touch---------------"
+Data_Insertion config.txt  "dtparam=i2c_vc=on"
 Data_Insertion config.txt  "dtparam=i2c_arm=on"
 Data_Insertion config.txt  "dtoverlay=JMO_DSI1024x600_Touch"
 
